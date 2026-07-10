@@ -1,368 +1,316 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-
-  
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-  
   <meta http-equiv="Content-Language" content="ru">
-
   <base href="">
-  
   <meta name="Reply-to" content="post4ytb@gmail.com">
-
-  
   <meta name="Keywords" content="АЦП, плата АЦП, аналого-цифровой преобразователь, USB, 12 бит, 1МГц">
-
-  
-  <meta name="Description" content="АЦП 12бит 1МГц память 240000выборок"><title>ADC Fs=1MHz,Memory</title></head><body style="background-color: rgb(192, 192, 192);"><big><big><big><big><a href="../projects/index.html" target="_blank">Главная</a></big></big></big></big><big><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <meta name="Description" content="АЦП 12бит 1МГц память 240000выборок"><title>ADC Fs=1MHz,Memory</title></head><body style="background-color: rgb(192, 192, 192);"><big><big><big><big><a href="../projects/index.html" target="_blank">Home</a></big></big></big></big><big><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp; &nbsp; &nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </big></big><big><big><big><big><a style="font-style: italic; font-weight: bold;" href="mailto:post4ytb@gmail.com" target="_blank"><small><small>post4ytb@gmail.com</small></small></a></big></big></big></big><br>
 
+<h1 align="center"><span style="" lang="EN-US">ADC
+12bit, </span><span style="" lang="EN-US">Sampling rate 1MHz, </span></h1>
 
-<h1 align="center"><span style="" lang="EN-US">АЦП
-12бит, </span><span style="" lang="EN-US">Fвыборки 1МГц, </span></h1>
+<h2 align="center"><span style="" lang="EN-US">memory
+240000 samples,
+USB interface, USB powered</span></h2>
 
-<h2 align="center"><span style="" lang="EN-US">память
-240000 выборок,
-USB-интерфейс, питание от USB</span></h2>
+<p align="left"><span style="" lang="EN-US">Bipolar
+(±1V/±2.5V) or
+unipolar (0...-2V, 0...-5V or 0...+2V, 0...+5V) signal.
+Controlled <b>sampling frequency/accumulation time</b>.
+Internal/external clock source for
+ADC samples. At max sampling frequency of 1.053MHz,
+30000 samples are recorded; at sampling frequencies of
+702kHz and lower, 240000 12-bit samples are recorded
+into the memory located on the board. </span></p>
 
-<p align="left"><span style="" lang="EN-US">Биполярный
-(±1В/±2,5В) или
-униполярный (0...-2В, 0...-5В или 0...+2В, 0...+5В) сигнал.
-Управляемые <b>частота выборки/время накопления</b>.
-Внутренний/внешний источник тактирования
-выборок АЦП. При макс. частоте выборки 1,053МГц
-записывается 30000 выборок, при частотах выборки
-702кГц и ниже записывается 240000 12-разрядных выборок
-в размещенную на плате память. </span></p>
+<p align="left"><span style="" lang="EN-US">In
+any of the operation modes,
+in parallel with the analog signal recording,
+3 digital signals are recorded, which can be displayed on the graph.</span></p>
 
-<p align="left"><span style="" lang="EN-US">В
-любом из режимов работы
-параллельно с записью
-аналогового сигнала записываются 3 цифровых
-сигнала, их можно отобразить на графике.</span></p>
+<p align="left"><span style="" lang="EN-US">Start
+from computer or
+by external signal. </span></p>
 
-<p align="left"><span style="" lang="EN-US">Старт
-от компьютера или
-внешним сигналом. </span></p>
-
-<p align="left"><span style="" lang="EN-US">Подключение
-двухосевого
-акселерометра ADXL202 (до 2g) или ADXL210 (до 10g).<br>
+<p align="left"><span style="" lang="EN-US">Connection
+of a dual-axis
+accelerometer ADXL202 (up to 2g) or ADXL210 (up to 10g).<br>
 </span></p>
 
 <span style="" lang="EN-US"><big style="color: rgb(255, 0, 0);"><span style="font-style: italic; font-weight: bold;"></span></big>
 </span>
 <ul style="color: rgb(0, 0, 153); font-weight: bold;">
 
-  <li>Пользователь может самостоятельно загружать обновленное
-программное обеспечение микроконтроллера через USB.<br>
+  <li>The user can independently upload updated
+microcontroller software via USB.<br>
     <span style="" lang="EN-US"></span></li>
-  <li><span style="" lang="EN-US">Новый
-режим: <big style="font-style: italic; font-weight: bold;"><span style="font-style: italic; font-weight: bold;">Работа в </span>реальном
-времени</big>,
-раз в секунду АЦП передает результат измерения, который отображается на
-графике. <br>
+<li><span style="" lang="EN-US">New
+mode: <big style="font-style: italic; font-weight: bold;"><span style="font-style: italic; font-weight: bold;">Real-time </span>operation</big>,
+once a second the ADC transmits the measurement result, which is displayed on
+the graph. <br>
     </span></li>
-  <li><span style="" lang="EN-US">Подключение </span><span style="" lang="EN-US"></span><span style="" lang="EN-US">термодатчика
-DS18B20 двумя проводами (-55°С..+125</span><span style="" lang="EN-US">°С</span><span style="" lang="EN-US">, точность ±0,5% в диапазоне -10</span><span style="" lang="EN-US">°С</span><span style="" lang="EN-US">..+85</span><span style="" lang="EN-US">°С и </span><span style="" lang="EN-US">±2% в
-остальной части диапазона)</span><span style="" lang="EN-US">.<br>
+  <li><span style="" lang="EN-US">Connection of a </span><span style="" lang="EN-US"></span><span style="" lang="EN-US">DS18B20 temperature sensor
+with two wires (-55°C..+125</span><span style="" lang="EN-US">°C</span><span style="" lang="EN-US">, accuracy ±0.5% in the range of -10</span><span style="" lang="EN-US">°C</span><span style="" lang="EN-US">..+85</span><span style="" lang="EN-US">°C and </span><span style="" lang="EN-US">±2% in the
+rest of the range)</span><span style="" lang="EN-US">.<br>
     </span></li>
-  <li><span style="" lang="EN-US">В режиме
-реального времени, наряду с
-графиком аналогового сигнала, может
-отображаться график изменения температуры, измеряемой&nbsp;
-датчиком </span><span style="" lang="EN-US">DS18B20. <br>
+  <li><span style="" lang="EN-US">In real-time
+mode, along with the
+analog signal graph, a graph of the temperature change measured&nbsp;
+by the </span><span style="" lang="EN-US">DS18B20 sensor can be displayed. <br>
     </span></li>
-  <li><span style="" lang="EN-US">Управление
-внешними устройствами по
-двум выходным линиям (условия подачи низкого/высокого уровня определяет
-пользователь):&nbsp;</span></li>
+  <li><span style="" lang="EN-US">Control of
+external devices via
+two output lines (the conditions for supplying low/high level are determined
+by the user):&nbsp;</span></li>
   <ul>
-    <li><span style="" lang="EN-US">на одну
-линию можно выдавать
-управляющий сигнал в зависимости от уровня измеряемого аналогового
-сигнала, <br>
+    <li><span style="" lang="EN-US">a control
+signal can be issued to one
+line depending on the level of the measured analog
+signal, <br>
       </span></li>
   </ul>
   <ul>
-    <li><span style="" lang="EN-US">на другую
-- в зависимости от
-измеряемой температуры, то есть, можно организ</span><span style="" lang="EN-US">о</span><span style="" lang="EN-US">вать управление
-термостатом.<br>
+    <li><span style="" lang="EN-US">and to the other
+line - depending on the
+measured temperature, that is, thermostat control can be organized</span><span style="" lang="EN-US">.</span><span style="" lang="EN-US"><br>
       </span></li>
   </ul>
 </ul>
 
-<p align="left"><span style="" lang="EN-US">подробнее
-узнать о работе
-12-разрядного АЦП</span><span style="" lang="EN-US">
-можно</span><span style="" lang="EN-US">,
-ознакомившись с файлом </span><a target="_blank" href="doc/help.zip">ПОМОЩИ</a>
+<p align="left"><span style="" lang="EN-US">you can learn
+more about the operation of the
+12-bit ADC</span><span style="" lang="EN-US">
+by</span><span style="" lang="EN-US">
+reading the </span><a target="_blank" href="doc/help.zip">HELP</a> file
 <span style="" lang="EN-US"><br>
 </span></p>
 
-<p align="left"><span style="" lang="EN-US">Приложение:
+<p align="left"><span style="" lang="EN-US">Application:
 <br>
 </span></p>
 
-<p align="left"><span style="" lang="EN-US">-возможность
-ввода
-коэффициентов преобразования для подключаемых
-пользователем устройств, наименований осей
-(подключив свой датчик, например, датчик
-скорости, вы сможете отображать на графике
-скорость, а не напряжение, измеряемое АЦП)<br>
--документирование - в файле данных&nbsp; сохранятся
-коэффициенты, введенные вами для подключаемого к
-АЦП датчика, наименование измеряемого датчиком
-параметра, есть возможность сохранения данных
-или фрагментов в текстовый файл<br>
--оригинальное отображение цифровых сигналов
-позволяет наблюдать их при любом изменении
-масштаба графика без взаимного перекрывания и
-без помех для просмотра аналогового сигнала при
-любом изменении масштаба,</span><br>
+<p align="left"><span style="" lang="EN-US">-possibility of
+entering
+conversion coefficients for devices connected by the
+user, axis names
+(by connecting your sensor, for example, a speed
+sensor, you will be able to display speed on the graph
+instead of the voltage measured by the ADC)<br>
+-documentation - the coefficients entered by you for the sensor connected to the
+ADC and the name of the parameter measured by the sensor will be saved
+in the data file, it is possible to save data
+or fragments into a text file<br>
+-the original display of digital signals
+allows observing them at any change of the
+graph scale without mutual overlapping and
+without interference for viewing the analog signal at
+any scale change,</span><br>
 </p>
+<h1 style="text-align: left;"><span lang="EN-US">Capabilities.</span></h1>
 
-<h1 style="text-align: left;"><span lang="EN-US">Возможности.</span></h1>
+<p align="left"><span style="" lang="EN-US">The presence
+of 512Kbytes memory, the possibility of autonomous operation (when battery powered),
+allows installing the ADC, for example, on a
+moving object where it is impossible to place a
+personal computer or laptop; the results can be read at the
+end of the recorded process by connecting the
+ADC to a computer.</span></p>
 
-<p align="left"><span style="" lang="EN-US">Наличие
-памяти 512Кбайт, возможность автономной работы (при питании от
-батарейки),
-что позволяет установить АЦП, например, на
-подвижный объект, на котором разместить
-персональный компьютер или ноутбук невозможно,
-считывание результатов можно произвести по
-окончании запиcываемого процесса, подключив
-АЦП к компьютеру.</span></p>
-
-<p align="left"><span style="" lang="EN-US">Предусмотрено
-подключение
-двухосевого акселерометра ADXL202 (ADXL210), что
-позволяет измерять ускорения по двум осям, а
-также вычислять угол наклона объекта, на котором
-закреплен акселерометр.</span></p>
+<p align="left"><span style="" lang="EN-US">Connection
+of a dual-axis accelerometer ADXL202 (ADXL210) is provided, which
+allows measuring accelerations along two axes, as
+well as calculating the tilt angle of the object on which
+the accelerometer is mounted.</span></p>
 
 <h2><a href="img/osc.jpg" target="_blank"><span style="" lang="EN-US"><img src="img/osc.jpg" alt="Click to magnify" style="border: 0px solid ; width: 300px; height: 196px;" align="left"></span></a></h2>
 
 <br>
 
-<span style="" lang="EN-US">Для
-преобразования
-сигнала в цифровые данные используется
-12-разрядный АЦП производства Analog Devices,&nbsp;</span>
-<p class="MsoNormal"><span style="" lang="EN-US">максимальная
-частота
-выборки </span>1,053МГц,<span style="" lang="EN-US">
-при которой
-записывается 30000 выборок</span></p>
+<span style="" lang="EN-US">A 12-bit ADC manufactured by Analog Devices is used to convert
+the signal into digital data,&nbsp;</span>
+<p class="MsoNormal"><span style="" lang="EN-US">maximum
+sampling
+frequency is </span>1.053MHz,<span style="" lang="EN-US">
+at which
+30000 samples are recorded</span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US">при
-частотах 702кГц и
-ниже записывается 30000хN выборок (где N - от 1 до 8). Частота
-выборки/время
-измерения, а также число выборок определяются пользователем.&nbsp; </span></p>
+<p class="MsoNormal"><span style="" lang="EN-US">at
+frequencies of 702kHz and
+lower, 30000xN samples are recorded (where N is from 1 to 8). The sampling frequency/measurement
+time, as well as the number of samples, are determined by the user.&nbsp; </span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US">Данные
-накапливаются в
-памяти 512Кх8, затем
-передаются в компьютер для хранения и отображения. Время передачи
-240000
-выборок (480000 байт) не более 7с.<o:p>&nbsp; <br>
+<p class="MsoNormal"><span style="" lang="EN-US">Data
+is accumulated in the
+512Kx8 memory, then
+transmitted to a computer for storage and display. The transmission time for 240000
+samples (480000 bytes) is no more than 7s.<o:p>&nbsp; <br>
 </o:p></span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US"><o:p>В
-режиме
-реального времени результат преобразования передается в компьютер раз в
-секунду без накопления в памяти.<br>
+<p class="MsoNormal"><span style="" lang="EN-US"><o:p>In
+real-time
+mode, the conversion result is transmitted to the computer once a
+second without accumulation in the memory.<br>
 </o:p></span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US">Компьютерное
-приложение позволяет просмотреть график,
-сохранить данные, добавить комментарии, просмотреть сохраненные
-данные, скопировать графики для вставки в Word, а также сохранить
-выбранные по графику фрагменты в текстовом виде.<br>
+<p class="MsoNormal"><span style="" lang="EN-US">The computer
+application allows viewing the graph,
+saving data, adding comments, viewing saved
+data, copying graphs for insertion into Word, as well as saving
+selected graph fragments in text format.<br>
 </span></p>
+<p class="MsoNormal"><span style="" lang="EN-US">The sampling
+clock
+signal
+can be generated both by the controller and by an
+external device (internal and
+external clock modes).</span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US">Тактовый
-сигнал
-выборки
-может формироваться как контроллером, так и
-внешним устройством (режимы внутреннего и
-внешнего тактирования).</span></p>
+<p class="MsoNormal"><span style="" lang="EN-US">Three
+jumpers
+provide the selection of the <b>analog signal range</b> ( <b>0...-2V,
+0...-5V</b>, <b>0...+2V and 0...+5V</b> for
+unipolar, <b>-1V..+1V or -2.5V...+2.5V</b> for
+bipolar signal).</span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US">Три
-джампера
-обеспечивают выбор <b>диапазона аналогового сигнала</b> ( <b>0...-2В,
-0...-5В</b>, <b>0...+2В и 0...+5В</b> для
-униполрного, <b>-1В..+1В или -2,5В...+2,5В</b> для
-биполярного сигнала).</span></p>
+<p class="MsoNormal">One connector of the device provides
+the connection of a signal cable.</p>
 
-<p class="MsoNormal">Один разъем устройства обеспечивает
-подключение сигнального кабеля.</p>
+<p class="MsoNormal">The second connector can
+transmit&nbsp;</p>
 
-<p class="MsoNormal">На второй разъем может
-передаваться&nbsp;</p>
+<p class="MsoNormal">-an external clock signal to the controller - when operating in the <b><u>external clock mode</u></b></p>
 
-<p class="MsoNormal">-в контроллер внешний тактовый сигнал
-- при работе в <b><u>режиме с внешним тактированием</u></b></p>
+<p class="MsoNormal">-pulses from the controller that clock
+the ADC samples</p>
 
-<p class="MsoNormal">-из контроллера импульсы, тактирующие
-выборки АЦП</p>
+<p class="MsoNormal">Power supply is via USB cable from the
+computer;
+power supply from an external +5V source is also possible,
+consumption is 60mA.<br>
+It is possible to power the controller from a 4.5V battery, the consumption will be 50mA,
+with a possible slight clipping of a strong signal from above.</p>
 
-<p class="MsoNormal">Питание - по USB-кабелю от
-компьютера,
-возможно питание от внешнего источника +5В,
-потребление 60мА.<br>
-Можно питать контроллер от батарейки 4,5В, потребление составит 50мА,
-при этом возможно небольшое ограничение сильного сигнала сверху.</p>
-
-<p class="MsoNormal">Обеспечено подключение двухосевых
-(или одноосевых) акселерометров с
-широтно-импульсными выходами ADXL202 (измеряет
-ускорение до 2g), ADXL210 (до 10g).<br>
+<p class="MsoNormal">Connection of dual-axis
+(or single-axis) accelerometers with
+pulse-width modulated outputs ADXL202 (measures
+acceleration up to 2g), ADXL210 (up to 10g) is provided.<br>
 </p>
 
-<p class="MsoNormal"><span style="font-weight: bold; color: rgb(204, 0, 0);"></span>Обеспечено
-подключение термодатчика DS18B20.<br>
+<p class="MsoNormal"><span style="font-weight: bold; color: rgb(204, 0, 0);"></span>Connection of a
+DS18B20 temperature sensor is provided.<br>
 </p>
 
-<p class="MsoNormal">Режим работы в реальном времени - раз
-в секунду
-выполняется измерение, результат которого выводится на график в
-реальном времени, параллельно на график может выводиться значение
-температуры.<br>
+<p class="MsoNormal">Real-time operation mode - once
+a second
+a measurement is performed, the result of which is output to the graph in
+real time; in parallel, the temperature value can be output to the graph.<br>
 </p>
 
-<p class="MsoNormal">Управление внешними объектами по 2-м
-выходным
-линиям по условиям, задаваемым пользователем, в зависимости от уровня
-измеряемого сигнала и температуры.<br>
+<p class="MsoNormal">Control of external objects via 2
+output
+lines according to conditions specified by the user, depending on the level of
+the measured signal and temperature.<br>
 </p>
 
-<p class="MsoNormal">В памяти микронтроллера размещен
-BootLoader -
-загрузчик, позволяющий пользователю самостоятельно записывать
-обновленные программы в память микроконтроллера по USB. Поставляется
-также соответствующее программное обеспечение для компьютера .<br>
+<p class="MsoNormal">A BootLoader is located in the microcontroller memory -
+a loader that allows the user to independently record
+updated programs into the microcontroller memory via USB. The corresponding computer software is also supplied.<br>
+</p>
+base unit, onto
+which software can be added as needed.</span> <font color="#bfbfc1">colorimeter
+colorimeter colorimeter <br>
+</font></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">It is possible to add
+a mode for starting conversion when the signal level is exceeded,
+as well as when the signal gradient exceeds a software-defined threshold </span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">The controller
+can be
+used as a high-resolution storage oscilloscope. It is possible to organize
+the recording of up to ten digital signals.<o:p> <br>
+</o:p></span></p>
+
+<h1 style="text-align: left;">Application.<span style="" lang="EN-US"></span></h1>
+
+<p align="left">You can download the archive with the <a target="_blank" href="doc/app.zip">Application</a>&nbsp;(update
+<strong>20.12.2008</strong>), this will allow you to view
+the files
+located in the <a target="_blank" href="doc/ADCdata.rar">Data
+Archive</a>, recorded by the 12-bit ADC (signals from
+an accelerometer on a swinging calibrator, as well as
+signals when measuring vibrations during
+a launch by a ballistic gravimeter,
+etc.). The Help file available in the Application archive
+will help you familiarize yourself with the features of the program.</p>
+
+Working with the application graphs (scaling, moving fragments)
+in the <a target="_blank" href="../acc/doc/ChartWork.mp4">tutorial video</a>
+.
+<span style="font-weight: bold;"></span>
+<h1 style="text-align: left;">Measurement results.</h1>
+
+<big style="color: rgb(204, 0, 0); font-style: italic; font-weight: bold;"><big><span style="" lang="EN-US">Click on the images to zoom in.<br>
+</span></big></big>
+<p class="MsoNormal"><span style="color: rgb(0, 102, 0); font-weight: bold; text-decoration: underline;">Real-time measurement</span><span style="font-weight: bold; text-decoration: underline;"></span><br>
+<span style="" lang="EN-US"></span>measurements
+are performed once a second,
+their results are output to the graph in real time<br>
+</p><br>
+<div style="text-align: left; width: 357px;"><a href="img/Single_T_3digit.jpg" target="_blank"><span style="" lang="EN-US"><img src="img/Single_T_3digit.jpg" alt="Click Image to magnify" style="border: 0px solid ; width: 329px; height: 299px;" align="left" hspace="10" vspace="5"></span></a></div>
+
+in the upper window, the black line is the signal
+graph, <br>
+
+<p class="MsoNormal">the red line is the temperature graph,<br>
 </p>
 
+<p class="MsoNormal">in the lower window are the graphs of digital
+signals<br>
+<span style="" lang="EN-US"></span></p>
 <p class="MsoNormal"><span style="" lang="EN-US"><br>
 </span></p>
 
-<p class="MsoNormal"><span style="" lang="EN-US">Это
-базовый блок, на
-который по необходимости можно накручивать
-программное обеспечение.</span> <font color="#bfbfc1">колориметр
-колориметр колориметр <br>
-</font></p>
-
-<p class="MsoNormal"><span style="" lang="EN-US">Возможно
-добавление
-режима запуска преобразования по превышению
-уровня сигнала, а также по превышению градиента
-сигнала задаваемого программно порога </span></p>
-
-<p class="MsoNormal"><span style="" lang="EN-US">Контроллер
-может
-использоваться как запоминающий осциллограф с
-высоким разрешением. Возможна организация
-записи до десяти цифровых сигналов.<o:p> <br>
-</o:p></span></p>
-
-<h1 style="text-align: left;">Приложение.<span style="" lang="EN-US"></span></h1>
-
-<p align="left">Можно скачать архив с <a target="_blank" href="doc/app.zip">Приложением</a>&nbsp;(обновление
-<strong>20.12.2008</strong>), это позволит просмотреть
-файлы,
-находящиеся в <a target="_blank" href="doc/ADCdata.rar">Архиве
-данных</a> , записанные АЦП 12 бит (сигналы от
-акселерометра на качающемся калибраторе, также
-сигналы при измерении вибраций во время
-выполнения броска баллистическим гравиметром и
-др.). Имеющийся в архиве Приложения файл помощи Help
-поможет ознакомиться с возможностями программы.</p>
-
-Работа с графиками приложения (масштабирование, перемещение фрагментов)
-в <a target="_blank" href="../acc/doc/ChartWork.mp4">обучающем ролике</a>
-.
-<span style="font-weight: bold;"></span>
-<h1 style="text-align: left;">Результаты измерений.</h1>
-
-<big style="color: rgb(204, 0, 0); font-style: italic; font-weight: bold;"><big><span style="" lang="EN-US">Кликните по изображениям для увеличения масштаба.<br>
-</span></big></big>
-<p class="MsoNormal"><span style="color: rgb(0, 102, 0); font-weight: bold; text-decoration: underline;">Измерение
-в реальном времени</span><span style="font-weight: bold; text-decoration: underline;"></span><br>
-<span style="" lang="EN-US"></span>измерения
-выполняются раз в секунду,
-их результаты в реальном времени выводятся на график<br>
+<p class="MsoNormal"><span style="" lang="EN-US">It is
+<p class="MsoNormal">Horizontal alignment of the windows is provided during
+the measurement, including when the scale is changed by the user.<br>
 </p>
 
-<br>
-
-<div style="text-align: left; width: 357px;"><a href="img/Single_T_3digit.jpg" target="_blank"><span style="" lang="EN-US"><img src="img/Single_T_3digit.jpg" alt="Click Image to magnify" style="border: 0px solid ; width: 329px; height: 299px;" align="left" hspace="10" vspace="5"></span></a></div>
-
-в верхнем окне черная линия - график
-сигнала, <br>
-
-<p class="MsoNormal">красная линия - график температуры,<br>
-</p>
-
-<p class="MsoNormal">в нижнем окне - графики цифровых
-сигналов<br>
-<span style="" lang="EN-US"></span></p>
-
-<p class="MsoNormal">Обеспечивается совмещение окон по
-горизонтали во
-время измерения, в том числе при изменении масштаба пользователем.<br>
-</p>
-
-<p class="MsoNormal">Во время измерения окно с цифровыми
-сигналами
-можно при необходимости <br>
-</p>
-
-<ul>
-
-  <li>растянуть по вертикали, </li>
-  <li>увеличить прозрачность этого окна, чтобы под ним был виден
-график
-аналогового сигнала и температуры, </li>
-  <li>разместить окно цифровых сигналов поверх окна аналоговых
-сигналов.</li>
+<p class="MsoNormal">During the measurement, the window with digital
+signals
+can be, if necessary, <br></p><ul>
+  <li>stretched vertically, </li>
+  <li>made more transparent so that the graph of
+the analog signal and temperature is visible underneath it, </li>
+  <li>placed on top of the analog signal window.</li>
 </ul>
 
 <p style="text-align: right;" class="MsoNormal"><br>
-<a href="img/Single_T_3digit.jpg" target="_blank"><span style="" lang="EN-US"></span></a></p>
+<a href="img/Single_T_3digit.jpg" target="_blank"><span style="" lang="EN-US"></span></a></p><br><br>
 
-<br>
-
-<br>
-
-Это позволит совместить оба графика во время измерения, как показано на
-следующем рисунке.&nbsp; <br>
+This will allow combining both graphs during the measurement, as shown in the
+following figure.&nbsp; <br>
 
 <a href="img/Transparency.jpg" target="_blank"><img alt="Click Image to magnify" src="img/Transparency.jpg" style="border: 0px solid ; width: 412px; height: 270px;" align="left" hspace="10" vspace="5"></a><br>
 
-<p class="MsoNormal">Для подробного просмтора графика
-можно увеличить
-масштаб, не останавливая измерений.</p>
+<p class="MsoNormal">For a detailed view of the graph,
+the scale can be
+increased without stopping the measurements.</p>
 
-<p class="MsoNormal">По окончании измерений результат
-можно сохранить в
-файл. При построении графиков по данным из файла они размещаются в
-одном окне.</p>
+<p class="MsoNormal">Upon completion of the measurements, the result
+can be saved to a
+file. When plotting graphs from the file data, they are placed in
+a single window.</p>
 
 <p class="MsoNormal"><br>
-Использование двух окон в режиме реального времени объясняется тем, что
-масштаб графика пересматривается после поступления каждой точки. При
-размещении в том же окне и цифровых графиков для них пришлось бы каждый
-раз пересчитывать масштаб и перестраивать их заново.<br>
+The use of two windows in real-time mode is due to the fact that
+the graph scale is re-evaluated after each point arrives. If
+digital graphs were placed in the same window, their scale would have to be
+recalculated and rebuilt every time.<br>
 </p>
 
 <p class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><br>
@@ -380,109 +328,80 @@ BootLoader -
 
 <p class="MsoNormal"><span style="" lang="EN-US">
 </span></p>
-
-<p class="MsoNormal"><span style="" lang="EN-US">&nbsp;.</span><a href="img/2V999kHz.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 144px; height: 97px;" src="img/2V999kHz.gif" alt="Click to magnify" align="middle" hspace="10"></span></a><span style="" lang="EN-US"></span><span style="" lang="EN-US">Сигнал
-99,9 кГц 2В</span></p>
+<p class="MsoNormal"><span style="" lang="EN-US">&nbsp;.</span><a href="img/2V999kHz.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 144px; height: 97px;" src="img/2V999kHz.gif" alt="Click to magnify" align="middle" hspace="10"></span></a><span style="" lang="EN-US"></span><span style="" lang="EN-US">Signal
+99.9 kHz 2V</span></p>
 
 <p class="MsoNormal"><span style="" lang="EN-US"> </span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> </span><a href="img/2V1kHz.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 184px; height: 85px;" src="img/2V1kHz.gif" alt="Click to magnify" align="middle" hspace="10"></span></a>
-<span style="" lang="EN-US"></span><span style="" lang="EN-US">Сигнал
-1 кГц 2В</span><a href="img/001V1kHz.gif" target="_blank"><span style="" lang="EN-US"></span><br>
+<span style="" lang="EN-US"></span><span style="" lang="EN-US">Signal
+1 kHz 2V</span><a href="img/001V1kHz.gif" target="_blank"><span style="" lang="EN-US"></span><br>
 <span style="" lang="EN-US"></span></a><span style="" lang="EN-US"> </span></p>
 
-<p class="MsoNormal">&nbsp;<a href="img/001V1kHz.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 209px; height: 96px;" src="img/001V1kHz.gif" alt="Click to magnify" align="middle" hspace="10"></span></a><span style="" lang="EN-US">Сигнал
-1 кГц 0,01В</span>&nbsp;<span style="" lang="EN-US"></span></p>
+<p class="MsoNormal">&nbsp;<a href="img/001V1kHz.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 209px; height: 96px;" src="img/001V1kHz.gif" alt="Click to magnify" align="middle" hspace="10"></span></a><span style="" lang="EN-US">Signal
+1 kHz 0.01V</span>&nbsp;<span style="" lang="EN-US"></span></p>
 
-<p class="MsoNormal">&nbsp;<a href="img/NoisePC.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 174px; height: 120px;" src="img/NoisePC.gif" alt="Click to magnify" align="middle" hspace="10"></span></a>Шум
-платы АЦП 12 разрядов 1МГц при
-подключении к персональному компьютеру.<a href="img/NoisePC.gif" target="_blank"><span style="" lang="EN-US"></span></a></p>
+<p class="MsoNormal">&nbsp;<a href="img/NoisePC.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 174px; height: 120px;" src="img/NoisePC.gif" alt="Click to magnify" align="middle" hspace="10"></span></a>Noise
+of the 12-bit 1MHz ADC board when
+connected to a personal computer.<a href="img/NoisePC.gif" target="_blank"><span style="" lang="EN-US"></span></a></p>
 
-<p class="MsoNormal">&nbsp;<a href="img/NoiseNotebook.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 176px; height: 125px;" src="img/NoiseNotebook.gif" alt="Click to magnify" align="middle" hspace="10"></span></a>Шум платы АЦП 12бит 1 МГц при
-подключении к
-ноутбуку</p>
+<p class="MsoNormal">&nbsp;<a href="img/NoiseNotebook.gif" target="_blank"><span style="" lang="EN-US"><img style="border: 0px solid ; width: 176px; height: 125px;" src="img/NoiseNotebook.gif" alt="Click to magnify" align="middle" hspace="10"></span></a>Noise of the 12-bit 1 MHz ADC board when
+connected to a
+laptop</p>
 
 <span style="" lang="EN-US"></span>
 <p class="MsoNormal"><span style="" lang="EN-US">________________________</span></p>
 
 <span style="" lang="EN-US"></span>
-<h2><span style="" lang="EN-US">Вопросы по
-эксплуатации </span><span style="" lang="EN-US">Платы
-АЦП</span><span style="" lang="EN-US"> 12бит
-1МГц с памятью 240000
-выборок
-и USB</span></h2>
+<h2><span style="" lang="EN-US">Questions on
+the operation of the </span><span style="" lang="EN-US">12-bit
+1MHz ADC Board</span><span style="" lang="EN-US"> with 240000
+samples memory
+and USB</span></h2>
 
 <p class="MsoNormal"><span style="" lang="EN-US">1.)
-Можно ли плату АЦП поставить на небольшой
-подвижный объект без компьютера, запустить
-измерение, а потом подключить компьютер и
-считать записанные данные из памяти платы?
-Я хочу подключить АЦП к датчику скорости,
-запитать их от батарейки, засунуть в
-контейнер, который будет двигаться,
-запустить измерение (желательно
-дистанционно), а после движения считать
-данные.&nbsp;</span></p>
+Is it possible to put the ADC board on a small
+moving object without a computer, start
+the measurement, and then connect a computer and
+read the recorded data from the board's memory?
+I want to connect the ADC to a speed sensor,
+power them from a battery, put it in a
+container that will move,
+start the measurement (preferably
+remotely), and read the data after the movement.&nbsp;</span></p>
 
 <p class="MsoNormal"><span style="" lang="EN-US">________________________</span></p>
-
-<p class="MsoNormal"><span style="" lang="EN-US">Да,
-для этого воспользуйтесь последней версией
-</span><a target="_blank" href="doc/app.zip">Приложения</a>&nbsp;(обновление
+<p class="MsoNormal"><span style="" lang="EN-US">Yes,
+to do this, use the latest version of the
+</span><a target="_blank" href="doc/app.zip">Application</a>&nbsp;(update
 20.12.2008),
-на панель ЗАПУСК добавлена кнопка <b>Read</b>.</p>
+a <b>Read</b> button has been added to the START panel.</p>
 
-<p class="MsoNormal">Последовательность действий:</p>
+<p class="MsoNormal">Sequence of actions:</p>
 
-<p class="MsoNormal">-уберите джампер питания АЦП от
-USB (J4)</p>
+<p class="MsoNormal">-remove the ADC USB power jumper (J4)</p>
 
-<p class="MsoNormal">-к контактам +5 и 0V припаяйте
-провода, для питания будет достаточно
-батарейки +4,5В</p>
+<p class="MsoNormal">-solder wires to the +5 and 0V contacts; a +4.5V battery will be sufficient for power</p>
 
-<p class="MsoNormal">-установите АЦП в контейнер,
-подключите к датчику и к USB компьютера,
-подайте питание</p>
+<p class="MsoNormal">-install the ADC into the container, connect it to the sensor and to the computer's USB, turn on the power</p>
 
-<p class="MsoNormal">-запустите измерение в режиме
-ВНЕШНИЙ ЗАПУСК ПО СПАДУ</p>
+<p class="MsoNormal">-start the measurement in the EXTERNAL TRIGGER BY FALLING EDGE mode</p>
 
-<p class="MsoNormal">-отключите кабель USB</p>
+<p class="MsoNormal">-disconnect the USB cable</p>
 
-<p class="MsoNormal">-для запуска измерения нужно
-замкнуть контакты 4 и 6 платы АЦП на короткое
-время</p>
+<p class="MsoNormal">-to start the measurement, you need to short contacts 4 and 6 of the ADC board for a short time</p>
 
-<p class="MsoNormal">-по окончании измерения (отсчитывать
-время измерения нужно от момента начала
-запуска, а не по индикатору в приложении)
-подключите кабель USB к плате АЦП, нажмите
-кнопку ПОДКЛЮЧИТЬ АЦП К КОМПЬЮТЕРУ для
-восстановления связи, затем кнопку Read для
-считывания данных</p>
+<p class="MsoNormal">-upon completion of the measurement (the measurement time must be counted from the moment the trigger starts, not by the indicator in the application), connect the USB cable to the ADC board, press the CONNECT ADC TO COMPUTER button to restore connection, then the Read button to read the data</p>
 
-<p class="MsoNormal">Как замкнуть контакты:</p>
+<p class="MsoNormal">How to short the contacts:</p>
 
-<p class="MsoNormal">для датчика скорости, возможно,
-будет достаточно выбрать
-продолжительность измерения, большую, чем
-время движения, на пару секунд, запустить
-измерение, отключить кабель USB, запустить
-движение объекта с датчиком и АЦП.</p>
+<p class="MsoNormal">for a speed sensor, it will probably be sufficient to choose a measurement duration that is a couple of seconds longer than the movement time, start the measurement, disconnect the USB cable, and start the movement of the object with the sensor and ADC.</p>
 
-<p class="MsoNormal">Если действительно необходимо
-выполнить запуск дистанционно, можно
-замкнуть контакты 4 и 6 транзисторным ключом,
-управляемым</p>
+<p class="MsoNormal">If it is truly necessary to perform the trigger remotely, you can short contacts 4 and 6 with a transistor switch controlled by</p>
 
-<p class="MsoNormal">-внешним таймером</p>
+<p class="MsoNormal">-an external timer</p>
 
-<p class="MsoNormal">-фотоприемником - источник света
-можно установить в том месте пути, с
-которого хотелось бы начать измерение</p>
+<p class="MsoNormal">-a photodetector - a light source can be installed at the point of the path from which you would like to start the measurement</p>
 
-<p class="MsoNormal">-приемником радиосигнала -
-передатчиком может управлять оператор</p>
+<p class="MsoNormal">-a radio signal receiver - the transmitter can be controlled by an operator</p>
 
 &nbsp;<span style="font-weight: bold;"></span>
 </body></html>
